@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     if (body.classList.contains("light-mode")) {
       body.classList.replace("light-mode", "dark-mode");
       localStorage.setItem("theme", "dark-mode");
+      
       // heading.textContent = "Dark";
     } else {
       body.classList.replace("dark-mode", "light-mode");
