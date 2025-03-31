@@ -53,8 +53,6 @@ button:hover {
   box-shadow: 0 8px 32px rgba(26, 232, 225, 1.4);
 }
 
-
-
 /* Style for the toggle switch */
 .switch {
   position: relative;
@@ -104,3 +102,5 @@ input:checked + .slider {
 input:checked + .slider:before {
   transform: translateX(24px);
 }
+
+
